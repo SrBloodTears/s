@@ -28,8 +28,8 @@ export class Personagem {
     public descricao: string; // Descrição detalhada
     public poderes: Poder[]; // Lista de poderes associados
     public grupos: Grupo[]; // Lista de grupos associados
-    public raça: number; // Representa a opção em OPCOES_RACAS
-    public raça_display: string; // Nome legível da raça
+    public raca: number; // Representa a opção em OPCOES_RACAS
+    public raca_display: string; // Nome legível da raça
     public foto?: string; // URL da foto, opcional
     public alinhamento: number; // Representa a opção em OPCOES_ALINHAMENTOS
     public alinhamento_display: string; // Nome legível do alinhamento
@@ -46,8 +46,8 @@ export class Personagem {
         this.descricao = '';
         this.poderes = [];
         this.grupos = [];
-        this.raça = 0;
-        this.raça_display = '';
+        this.raca = 0;
+        this.raca_display = '';
         this.foto = undefined;
         this.alinhamento = 0;
         this.alinhamento_display = '';
